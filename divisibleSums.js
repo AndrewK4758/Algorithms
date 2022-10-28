@@ -8,9 +8,9 @@ const divisibleSumPairs = () => {
         for(j = 0; j < n; j++) {
             if(((ar[i] + ar[j]) % k) == 0 && (i < j)){
                 count++
-            }console.log('count', count)
+            }
         }
-    }
+    }console.log('count', count)
 }
 divisibleSumPairs()
 

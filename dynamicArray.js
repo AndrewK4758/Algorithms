@@ -1,7 +1,6 @@
 let input = []
 
 function processData(input) {
-    //Enter your code here
     const S = [];
     let lastAnswer = 0;
     const inputArray = input.split("\n");

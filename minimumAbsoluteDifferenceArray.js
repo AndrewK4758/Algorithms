@@ -10,5 +10,5 @@ arr.map((currentValue, index, array) => {
         difference =currentMinDifference;
     }
 });
-
+console.log(difference)
 return difference
