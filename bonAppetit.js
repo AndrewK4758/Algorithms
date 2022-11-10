@@ -1,6 +1,6 @@
 const bill = [3, 10, 2, 9];
 let k = bill[1];
-let b = 12;
+let b = 7;
 
 
 const bonAppetit = () => {
@@ -8,10 +8,10 @@ const bonAppetit = () => {
     let annaPrice = (sum - k) / 2;
     if (b - annaPrice > 0) {
         let difference = b - annaPrice;
-        console.log(difference)
+        return difference
     } else if (b === annaPrice) {
-        console.log('Bon Appetit')
+        return 'Bon Appetit'
     }
 }
 
-/*console.log(*/bonAppetit(bill, k, b)
+console.log(bonAppetit(bill, k, b))
