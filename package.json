@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "ascii-table": "^0.0.9"
+    "node": "^19.1.0"
   }
 }
